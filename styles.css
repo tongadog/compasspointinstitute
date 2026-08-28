@@ -288,6 +288,21 @@ section { padding: 80px 0; }
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
+.leader-photo {
+  aspect-ratio: 3 / 4;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: linear-gradient(135deg, var(--paper-2), var(--line));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ink-soft);
+  font-family: var(--font-heading);
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.leader-bio p { margin-bottom: 1em; }
 .team-body { padding: 20px 22px 24px; }
 .team-body h3 { font-size: 18px; margin-bottom: 2px; }
 .team-role {
